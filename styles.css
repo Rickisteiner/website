@@ -20,7 +20,7 @@ body
 }
 
 #links {
- width: 278px;
+ width: 168px;
  height: 33px;
  margin: 20px auto;
 }
@@ -33,6 +33,9 @@ body
   background-color: rgba(0, 0, 0, 0.35);
   float: left;
   border-radius: 9px;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-width: 3px;
+  border-style: solid;
 }
 
 #about .shadow:hover {
@@ -49,40 +52,20 @@ body
 
 
 #portfolio .shadow {
-  width: 98px;
+  width: 75px;
   height: 25px;
   text-align: center;
   padding-top: 10px;
   background-color: rgba(0, 0, 0, 0.35);
   float: left;
   margin-left: 20px;
-  margin-right: 20px;
   border-radius: 9px;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-width: 3px;
+  border-style: solid;
 }
 
 #portfolio .shadow:hover {
-  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
-  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
-  box-shadow: 0 0 5px rgba(0,0,0,0.5);
-
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
-}
-
-#contact .shadow {
-  width: 80px;
-  height: 25px;
-  text-align: center;
-  padding-top: 10px;
-  background-color: rgba(0, 0, 0, 0.35);
-  float: left;
-  border-radius: 9px;
-}
-
-#contact .shadow:hover {
   -moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
   -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
   box-shadow: 0 0 5px rgba(0,0,0,0.5);
@@ -122,4 +105,114 @@ a:hover {
   margin: 35 auto;
   text-align: center;
   width: 900px;
+}
+
+#linksMore {
+  width: 380px;
+  height: 33px;
+  margin: 0px auto;
+}
+
+#email .shadow {
+  width: 60px;
+  height: 25px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0.35);
+  float: left;
+  border-radius: 9px;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-width: 3px;
+  border-style: solid;
+}
+
+#email .shadow:hover {
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+
+#github .shadow {
+  width: 75px;
+  height: 25px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0.35);
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 9px;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-width: 3px;
+  border-style: solid;
+}
+
+#github .shadow:hover {
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+#linkedin .shadow {
+  width: 80px;
+  height: 25px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0.35);
+  float: left;
+  border-radius: 9px;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-width: 3px;
+  border-style: solid;
+}
+
+#linkedin .shadow:hover {
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+#twitter .shadow {
+  width: 80px;
+  height: 25px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0.35);
+  float: left;
+  border-radius: 9px;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-width: 3px;
+  border-style: solid;
+  margin-left: 20px;
+}
+
+#twitter .shadow:hover {
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
 }

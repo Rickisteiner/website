@@ -1,0 +1,300 @@
+body
+{
+  background-image:url('backMain.jpg');
+  background-size: 1440px 3648px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+#buttons {
+  width: 150px;
+  height: 300px;
+}
+
+#home .shadow {
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  padding-top: 15px;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 9px;
+  margin-left: 95px;
+  margin-top: 12px;
+  display: inline-block;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-width: 3px;
+  border-style: solid;
+}
+
+#home .shadow:hover {
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+#portfolio .shadow {
+  width: 80px;
+  height: 25px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0.35);
+  margin-left: 95px;
+  border-radius: 9px;
+  display: inline-block;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-width: 3px;
+  border-style: solid;
+
+}
+
+#portfolio .shadow:hover {
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+#contact .shadow {
+  width: 80px;
+  height: 25px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 9px;
+  margin-left: 95px;
+  display: inline-block;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-width: 3px;
+  border-style: solid;
+}
+
+#contact .shadow:hover {
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b2dbb8;
+  text-decoration: none;
+
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+#images {
+  width: 700px;
+  height: 300px;
+  overflow: hidden;
+  margin: -295px auto;
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 6px;
+  border-color: rgba(0, 0, 0, 0.35);
+}
+
+#text {
+  width: 700px;
+  height: 45px;
+  margin: 310px auto;
+  border-radius: 9px;
+  background-color: rgba(0, 0, 0, 0.35);
+  text-align: center;
+  padding-top: 1px;
+  color: white;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-width: 3px;
+  border-style: solid;
+}
+
+#github .shadow {
+  font-size: 12px;
+  width: 80px;
+  height: 15px;
+  text-align: center;
+  padding-top: 4px;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 7px;
+  margin-left: 365px;
+  margin-top: -300px;
+  margin-bottom: 10px;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-width: 3px;
+  border-style: solid;
+}
+
+#github .shadow:hover {
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+#imagesTwo {
+  width: 700px;
+  height: 300px;
+  overflow: hidden;
+  margin: 10px auto;
+  margin-top: 30px;
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 6px;
+  border-color: rgba(0, 0, 0, 0.35);
+}
+
+#textTwo {
+  width: 700px;
+  height: 45px;
+  margin: 0px auto;
+  margin-bottom: 10px;
+  border-radius: 9px;
+  background-color: rgba(0, 0, 0, 0.35);
+  text-align: center;
+  padding-top: 1px;
+  color: white;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-width: 3px;
+  border-style: solid;
+}
+
+#githubTwo .shadow {
+  font-size: 12px;
+  width: 80px;
+  height: 15px;
+  text-align: center;
+  padding-top: 4px;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 7px;
+  margin-left: 365px;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-width: 3px;
+  border-style: solid;
+}
+
+#githubTwo .shadow:hover {
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+#imagesThree {
+  width: 700px;
+  height: 300px;
+  overflow: hidden;
+  margin: 10px auto;
+  margin-top: 30px;
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 6px;
+  border-color: rgba(0, 0, 0, 0.35);
+}
+
+#textThree {
+  width: 700px;
+  height: 45px;
+  margin: 0px auto;
+  margin-bottom: 10px;
+  border-radius: 9px;
+  background-color: rgba(0, 0, 0, 0.35);
+  text-align: center;
+  padding-top: 1px;
+  color: white;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-width: 3px;
+  border-style: solid;
+}
+
+#githubThree .shadow {
+  font-size: 12px;
+  width: 80px;
+  height: 15px;
+  text-align: center;
+  padding-top: 4px;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 7px;
+  margin-left: 365px;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-width: 3px;
+  border-style: solid;
+}
+
+#githubThree .shadow:hover {
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+#imagesFour {
+  width: 700px;
+  height: 300px;
+  overflow: hidden;
+  margin: 10px auto;
+  margin-top: 30px;
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 6px;
+  border-color: rgba(0, 0, 0, 0.35);
+}
+
+#textFour {
+  width: 700px;
+  height: 45px;
+  margin: 0px auto;
+  margin-bottom: 10px;
+  border-radius: 9px;
+  background-color: rgba(0, 0, 0, 0.35);
+  text-align: center;
+  padding-top: 1px;
+  color: white;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-width: 3px;
+  border-style: solid;
+}
