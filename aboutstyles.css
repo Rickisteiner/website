@@ -5,6 +5,8 @@ body
   background-repeat: no-repeat;
   background-position: center;
   font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
 }
 
 #buttons {
@@ -51,7 +53,6 @@ body
   border-color: rgba(0, 0, 0, 0.15);
   border-width: 3px;
   border-style: solid;
-
 }
 
 #portfolio .shadow:hover {
@@ -100,7 +101,7 @@ body
   line-height: 45px;
   width: 900px;
   width: 920px;
-  margin: -290px auto;
+  margin: 0px auto;
   background-color: rgba(0,0,0,0.35);
   border-radius: 30px;
   padding-left: 5px;
