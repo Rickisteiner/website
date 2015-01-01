@@ -8,8 +8,8 @@ body
 }
 
 #buttons {
-  width: 150px;
-  height: 300px;
+  float: left;
+  width: 1px;
 }
 
 #home .shadow {
@@ -118,7 +118,7 @@ a:hover {
   width: 700px;
   height: 300px;
   overflow: hidden;
-  margin: -295px auto;
+  margin: 10px auto;
   border-style: solid;
   border-radius: 30px;
   border-width: 6px;
@@ -128,7 +128,7 @@ a:hover {
 #text {
   width: 700px;
   height: 45px;
-  margin: 310px auto;
+  margin: 0px auto;
   border-radius: 9px;
   background-color: rgba(0, 0, 0, 0.35);
   text-align: center;
@@ -148,7 +148,7 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.35);
   border-radius: 7px;
   margin-left: 365px;
-  margin-top: -300px;
+  margin-top: 10px;
   margin-bottom: 10px;
   border-color: rgba(0, 0, 0, 0.15);
   border-width: 3px;

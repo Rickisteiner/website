@@ -4,7 +4,7 @@ var http = require('http');
 var server = http.createServer(function(req,res){
 
   if (req.url === "/" || req.url === "/favicon.ico" || req.url === "/start.html") {
-    fs.readFile("start.html", function(err,data){
+    fs.readFile("index.html", function(err,data){
       res.end(data.toString());
     });
   }
@@ -15,24 +15,48 @@ var server = http.createServer(function(req,res){
     });
   }
 
-  else if (req.url === '/back.png') {
-    fs.readFile("back.png", function(err,data){
+  else if (req.url === '/back3.jpg') {
+    fs.readFile("back3.jpg", function(err,data){
       res.end(data);
     });
   }
 
-  else if (req.url === '/indexstyles.css') {
-    fs.readFile("indexstyles.css", function(err,data){
+  else if (req.url === '/me.jpg') {
+    fs.readFile("me.jpg", function(err,data){
       res.end(data);
     });
   }
 
-  else if (req.url === '/bookback.png') {
-    fs.readFile("bookback.png", function(err,data){
+  else if (req.url === '/about.html') {
+    fs.readFile("about.hrml", function(err,data){
       res.end(data);
     });
   }
-  res.end(index);
+
+  else if (req.url === 'aboutstyles.css') {
+    fs.readFile("aboutstyles.css", function(err,data){
+      res.end(data);
+    });
+  }
+  else if (req.url === '/work.html') {
+    fs.readFile("work.hrml", function(err,data){
+      res.end(data);
+    });
+  }
+
+  else if (req.url === 'workstyles.css') {
+    fs.readFile("workstyles.css", function(err,data){
+      res.end(data);
+    });
+  }
+
+  else if (req.url === '/backMain.jpg') {
+    fs.readFile("back3.jpg", function(err,data){
+      res.end(data);
+    });
+  }
+
+
 });
 
 

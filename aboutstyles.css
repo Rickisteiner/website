@@ -5,13 +5,12 @@ body
   background-repeat: no-repeat;
   background-position: center;
   font-family: sans-serif;
-  display: flex;
-  flex-direction: row;
 }
 
 #buttons {
   width: 150px;
   height: 300px;
+  float: left;
 }
 
 #home .shadow {
