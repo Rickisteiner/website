@@ -254,6 +254,10 @@ a:hover {
   margin-top: 0px;
   }
 
+  #about .shadow {
+    display:none;
+  }
+
   #linksMore {
   width: 320px;
   margin-bottom: 20px;
