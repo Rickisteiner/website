@@ -299,7 +299,7 @@ a:hover {
   border-style: solid;
 }
 
-@media (max-width:400px) {
+@media (max-width:600px) {
 
   body {
     overflow: scroll;
