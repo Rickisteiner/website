@@ -317,6 +317,10 @@ a:hover {
     display:none;
   }
 
+  #home .shadow {
+    margin: 0px;
+  }
+
   #images {
     width: 300px;
     height: 150px;
