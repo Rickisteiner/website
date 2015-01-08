@@ -242,3 +242,43 @@ a:hover {
   -webkit-transition:.5s;
   transition:.5s;
 }
+@media screen and (max-width:600px) {
+
+  body {
+    overflow: scroll;
+  }
+
+  #txt {
+  width: 300px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  }
+
+  #linksMore {
+  width: 350px;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+#resume .shadow{
+    margin: 0px;
+  }
+
+  #email .shadow{
+  }
+
+  #github .shadow {
+    margin: 0px;
+  }
+
+  #linkedin .shadow{
+    margin: 0px;
+  }
+
+  #twitter .shadow{
+    margin: 0px;
+    display: none;
+  }
+
+}
+
