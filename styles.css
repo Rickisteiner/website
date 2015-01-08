@@ -248,6 +248,10 @@ a:hover {
     overflow: scroll;
   }
 
+  #me {
+    height: 280px;
+  }
+
   #txt {
   width: 300px;
   margin-bottom: 0px;
