@@ -273,6 +273,7 @@ a:hover {
   }
 
   #email .shadow{
+    margin: 0px;
   }
 
   #github .shadow {
