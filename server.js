@@ -45,7 +45,7 @@ var server = http.createServer(function(req,res){
     });
   }
 
-  else if (req.url === '/me.JPG') {
+  else if (req.url === '/me.jpg') {
     fs.readFile("me.jpg", function(err,data){
       res.end(data);
     });
