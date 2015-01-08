@@ -246,6 +246,7 @@ a:hover {
 
   body {
     overflow: scroll;
+    margin: 0px auto;
   }
 
   #txt {
