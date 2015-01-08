@@ -254,6 +254,10 @@ a:hover {
   margin-top: 0px;
   }
 
+  #links {
+    margin: 0px;
+  }
+
   #about .shadow {
     display:none;
   }
