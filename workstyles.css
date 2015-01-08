@@ -313,6 +313,10 @@ a:hover {
 
   }
 
+  #about .shadow {
+    display:none;
+  }
+
   #images {
     width: 300px;
     height: 150px;
