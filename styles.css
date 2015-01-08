@@ -242,7 +242,7 @@ a:hover {
   -webkit-transition:.5s;
   transition:.5s;
 }
-@media screen and (max-width:600px) {
+@media (max-width:600px) {
 
   body {
     overflow: scroll;
