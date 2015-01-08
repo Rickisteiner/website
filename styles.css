@@ -252,6 +252,7 @@ a:hover {
   width: 300px;
   margin-bottom: 0px;
   margin-top: 0px;
+  line-height: 30px;
   }
 
   #links {
@@ -264,7 +265,7 @@ a:hover {
 
   #linksMore {
   width: 320px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   margin-top: 0px;
 }
 #resume .shadow{
