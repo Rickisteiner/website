@@ -298,3 +298,79 @@ a:hover {
   border-width: 3px;
   border-style: solid;
 }
+
+@media (max-width:600px) {
+
+  body {
+    overflow: scroll;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  #buttons {
+
+  }
+
+  #images {
+    width: 300px;
+    height: 150px;
+    margin-left: 0px;
+  }
+
+  #text {
+    width: 300px;
+    padding-top: 0px;
+    height: 70px;
+    margin-left: 0px;
+  }
+
+  #github .shadow {
+    margin-left: 0px;
+  } 
+
+  #imagesTwo {
+    width: 300px;
+    height: 150px;
+    margin-left: 0px;
+  }
+
+  #textTwo {
+    width: 300px;
+    padding-top: 0px;
+    height: 70px;
+    margin-left: 0px;
+  }
+
+  #githubTwo .shadow {
+    margin-left: 0px;
+  }
+
+  #imagesThree {
+    display: none;
+  }
+
+  #textThree {
+    display: none;
+  }
+
+  #githubThree .shadow {
+    display: none;
+  }
+
+
+  #imagesFour {
+    width: 300px;
+    height: 130px;
+    margin-left: 0px;
+  }
+
+  #textFour {
+    width: 300px;
+    padding-top: 0px;
+    height: 60px;
+    margin-left: 0px;
+  }
+
+}
