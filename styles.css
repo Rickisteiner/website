@@ -262,6 +262,7 @@ a:hover {
 }
 #resume .shadow{
     margin: 0px;
+    display: none;
   }
 
   #email .shadow{
@@ -277,7 +278,6 @@ a:hover {
 
   #twitter .shadow{
     margin: 0px;
-    display: none;
   }
 
 }
