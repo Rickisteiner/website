@@ -81,6 +81,12 @@ var server = http.createServer(function(req,res){
     });
   }
 
+   else if (req.url === '/ResumeWeb.pdf') {
+    fs.readFile("ResumeWeb.pdf", function(err,data){
+      res.end(data);
+    });
+  }
+
 });
 
 
